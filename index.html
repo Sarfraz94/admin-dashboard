@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Login | Secure Panel</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <div class="login-box">
+
+            <div class="logo">
+                <span>AD</span>
+            </div>
+
+            <h1>Admin Login</h1>
+            <p class="subtitle">Sign in to access your dashboard</p>
+
+            <form id="loginForm">
+
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter admin email"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+
+                    <div class="password-box">
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter password"
+                            required
+                        >
+
+                        <button type="button" id="togglePassword">
+                            Show
+                        </button>
+                    </div>
+                </div>
+
+                <p id="message"></p>
+
+                <button type="submit" id="loginBtn">
+                    Login to Dashboard
+                </button>
+
+            </form>
+
+            <!-- Demo Credentials -->
+
+            <div class="credentials">
+
+                <h3>Demo Login Credentials</h3>
+
+                <div class="credential-item">
+                    <span>Email</span>
+                    <strong>admin@gmail.com</strong>
+                </div>
+
+                <div class="credential-item">
+                    <span>Password</span>
+                    <strong>admin@123</strong>
+                </div>
+
+            </div>
+
+            <p class="footer">
+                © 2026 Admin Panel. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2>Admin Dashboard</h2>
+        <div class="avatar">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuPFsEQ9N0qw-lHRUMaFcXftBhH1pbvG9Yrd_fJSClnA&s=10"
+                alt="">
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="#">🏠Home</a>
+        <a href="./order.html">📦Orders</a>
+         <a href="./Category.html">Category</a>
+        <a href="./Product.html">🛒Products</a>
+        <a href="./Customer.html">👥Customer</a>
+        <a href="./setting.html">⚙Setting</a>
+        <a href="#">🚪Logout</a>
+    </div>
+    <div class="main-content">
+        <h1>Dashboard</h1>
+        <div class="card">
+            <h3>Total Orders</h3>
+            <p>125</p>
+        </div>
+        <div class="card">
+            <h3>Pending Order</h3>
+            <p>18</p>
+        </div>
+        <div class="card">
+            <h3>Complete Order</h3>
+            <p>280</p>
+        </div>
+        <div class="card">
+            <h2>Total User</h2>
+            <p id="users">0</p>
+        </div>
+         <div class="card">
+            <h2>Total Category</h2>
+            <p id="Category">0</p>
+        </div>
+        <div class="card">
+            <h2>Total Products</h2>
+            <p>200+</p>
+        </div>
+        <div class="table-container">
+            <h2>
+                Recent Orders
+            </h2>
+            <table>
+                <tr>
+                    <th>Order Id</th>
+                    <th>Customer</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>#101</td>
+                    <td>Ali</td>
+                    <td>$2000</td>
+                    <td class="pending">Pending</td>
+                </tr>
+                 <tr>
+                    <td>#102</td>
+                    <td>Omer</td>
+                    <td>$200</td>
+                    <td class="complete">Complete</td>
+                </tr>
+                 <tr>
+                    <td>#103</td>
+                    <td>Saqib</td>
+                    <td>$120</td>
+                    <td class="cancel">Cancel</td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+
+
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>
